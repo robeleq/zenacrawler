@@ -8,6 +8,6 @@
 from itemadapter import ItemAdapter
 
 
-class ZenacrawlerPipeline:
+class ZenaCrawlerPipeline:
     def process_item(self, item, spider):
         return item
